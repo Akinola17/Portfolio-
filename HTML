@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akinola Akinkunmi Isaac - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">AA</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="intro animate-fade">
+            <h1>Hello, I'm <span>Akinola Akinkunmi Isaac</span></h1>
+            <p>I'm a versatile technology professional with expertise spanning web development, data analysis, and digital solutions design. I thrive on building intelligent, user-friendly systems and creating innovative tech solutions that solve real-world problems. From crafting seamless web experiences to optimizing performance, I ensure every project I touch is impactful, secure, and future-ready.</p>
+            
+            <p class="passion">My passion lies in creating technology that empowers communities, drives business growth, and improves everyday life. I believe technology should not only be functional but also accessible, reliable, and beneficial to society at large.</p>
+            
+            <div class="buttons animate-slide-up">
+                <a href="https://wa.me/2349124827018" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="resume"><i class="fa fa-download"></i> Download Resume</a>
+            </div>
+        </div>
+        <div class="logo-circle animate-zoom">
+            <div class="circle">A</div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
